@@ -2,16 +2,16 @@ baseURL = "https://lexevo.link/"
 languageCode = "en"
 defaultContentLanguage = "en"
 
-title = "Lynx"
+title = "Lexevo"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 enableEmoji = true
 disableKinds = ["taxonomy", "term"]
 
 [params.author]
-  # name = "Your name here"
-  # headline = "An awesome person"
-  # image = "img/author.jpg"  # path relative to static directory
+  name = "Lexevo"
+  headline = "Just a nerd that loves VR."
+  image = "dark_kermit_avatar_bi_512x512.png"  # path relative to static directory
 
   links = [
     # { email = "mailto:hello@your_domain.com" },
@@ -19,15 +19,15 @@ disableKinds = ["taxonomy", "term"]
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
     # { apple = "https://www.apple.com" },
     # { bandcamp = "https://username.bandcamp.com" },
-    # { bluesky = "https://bsky.app/profile/username" },
+    { bluesky = "https://bsky.app/profile/lexevo.net" },
     # { codepen = "https://codepen.io/username" },
     # { dev = "https://dev.to/username" },
-    # { discord = "https://discord.gg/invitecode" },
+    { discord = "https://discordapp.com/users/110172048361304064" },
     # { dribbble = "https://dribbble.com/username" },
     # { facebook = "https://facebook.com/username" },
     # { flickr = "https://www.flickr.com/photos/username/" },
     # { foursquare = "https://foursquare.com/username" },
-    # { github = "https://github.com/username" },
+    { github = "https://github.com/Lexevolution" },
     # { gitlab = "https://gitlab.com/username" },
     # { google = "https://www.google.com/" },
     # { instagram = "https://instagram.com/username" },
@@ -35,12 +35,14 @@ disableKinds = ["taxonomy", "term"]
     # { kickstarter = "https://www.kickstarter.com/profile/username" },
     # { lastfm = "https://last.fm/user/username" },
     # { linkedin = "https://linkedin.com/in/username" },
-    # { mastodon = "https://mastodon.instance/@username" },
+    { mastodon = {href = "https://social.lexevo.net/@lexevo", text = "Mastodon/ActivityPub"}},
     # { medium = "https://medium.com/username" },
     # { microsoft = "https://www.microsoft.com/" },
     # { patreon = "https://www.patreon.com/username" },
     # { pinterest = "https://pinterest.com/username" },
     # { reddit = "https://reddit.com/user/username" },
+    { resonite = {href = "https://go.resonite.com/record/U-Lexevo/R-139dcf55-7d72-4646-a9db-2eea431b47be", text = "Resonite profile world"}},
+    { resonite = {href = "https://resonite.com", text = "Get Resonite"}},
     # { slack = "https://workspace.url/team/userid" },
     # { snapchat = "https://snapchat.com/add/username" },
     # { soundcloud = "https://soundcloud.com/username" },
@@ -52,8 +54,8 @@ disableKinds = ["taxonomy", "term"]
     # { threads = "https://threads.com/username" },
     # { tiktok = "https://tiktok.com/@username" },
     # { tumblr = "https://username.tumblr.com" },
-    # { twitch = "https://twitch.tv/username" },
-    # { twitter = "https://twitter.com/username" },
+    { twitch = "https://twitch.tv/lexevo" },
+    { twitter = "https://x.com/Lexevo_" },
     # { whatsapp = "https://wa.me/phone-number" },
     # { x = "https://x.com/username" },
     # { youtube = "https://youtube.com/username" },
